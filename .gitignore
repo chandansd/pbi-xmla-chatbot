@@ -1,0 +1,29 @@
+# ── Secrets ────────────────────────────────────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── .NET / C# build artifacts ──────────────────────────────────────────────────
+XmlaRunner/bin/
+XmlaRunner/obj/
+PBI_XMLA_Chatbot_Package/XmlaRunner/bin/
+PBI_XMLA_Chatbot_Package/XmlaRunner/obj/
+*.user
+*.suo
+.vs/
+
+# ── OS ─────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
